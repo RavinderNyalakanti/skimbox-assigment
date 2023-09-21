@@ -1,0 +1,158 @@
+.payment-month-year-card-container {
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   
+    background-color: #fff;
+    width: 295px;
+    border-radius: 20px; 
+    margin-top: 50px;  
+    margin-bottom: 40px;
+    height:6px; 
+   
+  } 
+
+  .basic-card-container {
+    position: relative; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin-left: 20px;
+  }
+  
+  .most-popular-btn {
+    position: absolute;
+  top: -15px; /* Adjust this value as needed */
+  left: 50%;
+  transform: translateX(-50%); 
+ background-color: #9ae7d4; 
+ border-radius: 10px; 
+ border-color: transparent;
+  }
+
+  .payment-month-year-card-container p{
+    font-size: 12px; 
+    font-weight: 600;
+  }
+  
+  .pay-month-only-btn{
+    background-color: #000; 
+    color: #fff; 
+    border-radius: 20px; 
+    height: 38px;
+    width: 140px; 
+    margin-right: 20px;
+  } 
+   
+  .grid-container {
+    display: grid;
+    gap: 50px 100px;
+    grid-template-columns: auto auto auto;
+    width: 90%; 
+   
+    padding: 10px;
+    align-items: flex-start; /* Change to flex-start */
+    justify-content: center;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 2px solid rgba(144, 223, 236, 0.8); */
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 400px; 
+    margin-left: 80px;
+    height: auto; /* Allow the height to adjust based on content */
+    max-height: 640px; /* Limit the maximum height */
+     /* Add scroll if necessary */
+  }
+
+
+  .basic-heading{
+    font-size: 20px; 
+    font-weight: 700;
+  } 
+  .para-individual{
+    font-weight: 700; 
+    font-size: 18px;
+  } 
+
+  .amount {
+    font-size: 24px; /* Customize the font size for the amount */
+  }
+  
+  
+.currency{
+    font-size: 22px;
+}  
+
+.grid-item  .para-free-for-three-months-container{
+    background-color: #e2f3ef; 
+    width:100%;  
+
+    
+}
+.para-free-for-three-months{ 
+    font-size: 20px;
+} 
+
+.basics-card-container{
+    display: flex; 
+    flex-direction: column;  
+    justify-content: flex-start;
+    align-items:baseline ;
+}  
+.basic-reapors-card-container{
+    align-items: baseline;
+}
+.basic-reapors-card-container p{
+    font-size: 14px;
+} 
+
+.try-for-free-container-btn-container{
+    background-color: #000; 
+    border-radius: 20px; 
+    color: #fff; 
+    width: 300px; 
+    height: 40px; 
+    text-align: center;   
+    align-self: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+} 
+.basic-card-container-top{
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin: 0px;
+}.basic-reapors-card-container {
+    display: flex; /* Use Flexbox */
+    flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
+    align-items: flex-start; 
+    flex-direction: column; 
+    margin-left: 20px; /* Vertically center the items */
+  }
+  
+  .basic-reapors-card-container p {
+    flex: 1; /* Distribute available space equally among the <p> elements */
+    display: flex; /* Use Flexbox for individual <p> elements */
+    align-items: center; /* Vertically center the text and icon within each <p> element */
+    margin: 10px; /* Remove any default margin */
+    font-size: 14px; /* Adjust font size as needed */
+    color: #666; /* Adjust color as needed */ 
+    
+  }
+  
+  .basic-reapors-card-container p svg {
+    margin-right: 5px; /* Add spacing between the icon and text */
+  }
+  
+  @media screen and (max-width:768px){
+   
+      .grid-item{
+        margin-left: 10px; 
+        margin-right: 20px;
+      }
+  }
